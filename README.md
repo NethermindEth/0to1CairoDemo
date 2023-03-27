@@ -1,6 +1,8 @@
 ## Steps to upgrade from cairo 0 upgradeable contract to cairo 1 upgradeable contract
 This method uses replace_class_syscall to remove the proxy pattern altogether. At the end of migration the contract utlizes an implementation class hash wich has an upgrade method in it. This assumes replace_call_syscall will not be deprecated and the Proxy pattern in cairo0 will not be the dominant pattern for upgradeable contracts in cairo1.
 
+Steps for the goerli testnet
+
 Install the latest v0.11.0 cairo-lang package.
 
 ```shell
