@@ -23,11 +23,18 @@ transaction hash for declaration above 0xe23e6ba05b95cc4e1836b08a64f107d16c2966f
 
 
 
-selector for 'initializer'  0x2dd76e7ad84dbed81c314ffe5e7a7cacfb8f4836f01af4e913f275f89a3de1a
-proxy declare at 0xeafb0413e759430def79539db681f8a4eb98cf4196fe457077d694c6aeeb82
+Some values used in the CLI below
+
+selector for 'initializer'  0x2dd76e7ad84dbed81c314ffe5e7a7cacfb8f4836f01af4e913f275f89a3de1a 
+
+proxy declare at 0xeafb0413e759430def79539db681f8a4eb98cf4196fe457077d694c6aeeb82 
+
 UDC address 0x041a78e741e5af2fec34b695679bc6891742439f7afb8484ecd7766661ad02bf
+
 implementation class hash for cairo0resolver 0x6cf18bc8305c6b2ce6d1954cf9a502fbd8fe4aac467bd89fb0682de4c077e6c
+
 working account address 0x1c15b60bc80306354cc68d83c1fc487b4b0b0e1540fe62c1df9aa3ae4ba396a
+
 
 ```shell
 starknet invoke \
